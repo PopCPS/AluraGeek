@@ -1,0 +1,23 @@
+.rodape {
+    background-color: #EAF2FD;
+
+    padding: 1rem 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.rodape__imagem {
+    width: 50vw;
+}
+
+
+.feitoPor__texto {
+    text-align: center;
+    color: #464646;
+    font-weight: 600;
+
+    padding: 2rem;
+}

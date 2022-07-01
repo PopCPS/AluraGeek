@@ -1,0 +1,18 @@
+.chamada {
+    background-image: url(/assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-size: 100vw;
+    background-color: #2D2D2D;
+
+    padding: 1rem 1rem;
+
+    width: calc(100vw - 2rem);
+    height: 53vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: .5rem;
+    align-items: flex-start;
+}

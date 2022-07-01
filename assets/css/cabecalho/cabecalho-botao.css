@@ -1,0 +1,12 @@
+.cabecalho__botao {
+    background-color: #FFF;
+    background-image: url(/assets/img/lupa.svg);
+    background-repeat: no-repeat;
+
+    height: 1.5rem;
+    width: 1.5rem;
+
+    border: none;
+
+    padding: 0;
+}

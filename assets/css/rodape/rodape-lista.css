@@ -1,0 +1,11 @@
+.rodape__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: #464646;
+}

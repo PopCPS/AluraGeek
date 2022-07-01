@@ -1,0 +1,55 @@
+.formulario {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: flex-start;
+}
+
+.formulario__titulo {
+    text-align: left;
+}
+
+.formulario__inputLabel {
+    display: flex;
+    flex-direction: column;
+    row-gap: .25rem;
+
+    background-color: #FFF;
+
+    padding: .5rem .75rem;
+
+    box-shadow: 5px #C8C8C8;
+
+    width: 92%;
+}
+
+.formulario__input {
+    border: none;
+
+    font-size: 16px;
+
+    width: 100%;
+}
+
+.formulario__textArea {
+    font-size: 16px;
+
+    height: 4rem;
+
+    resize: none;
+
+    border: none;
+
+    width: 100%;
+}
+
+.formulario__textArea:focus, .formulario__input:focus {
+    outline: none;
+}
+
+.formulario__label {
+    font-size: 14px;
+    font-weight: 400;
+}

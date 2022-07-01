@@ -1,0 +1,26 @@
+.botaoBranco {
+    color: #2A7AE4;
+    text-decoration: none;
+    font-weight: 600;
+    
+    border: solid 2px #2A7AE4;
+
+    background-color: #FFF;
+
+    padding: .6rem 2rem;
+}
+
+.botaoAzul {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+
+    border: none;
+
+    background-color: #2A7AE4;
+
+    padding: 1rem 1rem;
+
+    flex-basis: auto;
+}

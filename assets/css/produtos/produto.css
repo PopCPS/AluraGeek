@@ -1,0 +1,21 @@
+.produto {
+    width: calc(50vw - 24px);
+
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.produto__imagem {
+    width: calc(50vw - 24px);
+}
+
+.produto__preco {
+    font-weight: 700;
+}
+
+.produto__link {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700;
+}
