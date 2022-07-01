@@ -5,6 +5,8 @@
     flex-direction: column;
     row-gap: 1rem;
     align-items: flex-start;
+
+    padding: 1rem;
 }
 
 .formulario__titulo {
@@ -28,13 +30,13 @@
 .formulario__input {
     border: none;
 
-    font-size: 16px;
+    font-size: 1rem;
 
     width: 100%;
 }
 
 .formulario__textArea {
-    font-size: 16px;
+    font-size: 1rem;
 
     height: 4rem;
 

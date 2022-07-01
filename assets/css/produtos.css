@@ -1,5 +1,12 @@
 .produtos {
     padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+
+    background-color: #E5E5E5;
 }
 
 .produtos__lista {
@@ -12,7 +19,10 @@
 .produtos__cabecalho {
     display: flex;
     justify-content: space-between;
+    
     padding: 1rem 0;
+
+    width: 100%;
 }
 
 .produtos__titulo {

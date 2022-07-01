@@ -20,7 +20,17 @@
 
     background-color: #2A7AE4;
 
-    padding: 1rem 1rem;
+    padding: .75rem 1rem;
 
     flex-basis: auto;
+}
+
+.adm {
+    padding: .75rem 1rem;
+    font-size: 14px;
+}
+
+.botao__adicionaProduto {
+    font-size: 1rem;
+    font-weight: 400;
 }

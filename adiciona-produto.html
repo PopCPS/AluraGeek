@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek | Adicionar produto</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/app.css">
+        <link rel="stylesheet" href="/assets/css/botao.css">
+        <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="/assets/css/form.css">
+        <link rel="stylesheet" href="/assets/css/adiciona-produto.css">
+        <link rel="stylesheet" href="/assets/css/rodape/rodape.css">
+        <link rel="stylesheet" href="/assets/css/rodape/rodape-lista.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__imagem" src="assets/img/logo.svg" alt="AluraGeek">
+            <a class="botaoBranco adm" href="#">Menu administrador</a>
+            <button class="cabecalho__botao"></button>
+        </header>
+        <section class=background__adicionaProduto>
+            <form class="formulario__adicionaProduto formulario" action="#">
+                <h2 class="formulario__titulo">Adicionar novo produto</h2>
+                <div class="formulario__inputLabel">
+                    <label for="" class="formulario__label">URL da imagem</label>
+                    <input type="text" class="formulario__input">
+                </div>
+                <div class="formulario__inputLabel">    
+                    <label for="" class="formulario__label">Categoria</label>
+                    <input type="text" class="formulario__input">
+                </div>
+                <div class="formulario__inputLabel">
+                    <label for="" class="formulario__label">Nome do produto</label>
+                    <input type="text" class="formulario__input">
+                </div>
+                <div class="formulario__inputLabel">
+                    <label for="" class="formulario__label">Preço do produto</label>
+                    <input type="text" class="formulario__input">
+                </div>
+                <div class="formulario__inputLabel">
+                    <label for="" class="formulario__label">Descrição do produto</label>
+                    <textarea type="text" class="formulario__input"></textarea>
+                </div>
+                <input class="botaoAzul botao__adicionaProduto" type="submit" value="Adicionar produto">
+            </form>
+        </section>
+        <footer class="rodape">
+            <img class="rodape__imagem" src="/assets/img/logo.svg" alt="AluraGeek">
+            <nav>
+                <ul class="rodape__lista">
+                    <li><a class="rodape__link" href="#">Quem somos</a></li>
+                    <li><a class="rodape__link" href="#">Politica de privacidade</a></li>
+                    <li><a class="rodape__link" href="#">Programa de fidelidade</a></li>
+                    <li><a class="rodape__link" href="#">Nossas lojas</a></li>
+                    <li><a class="rodape__link" href="#">Quero ser franqueado</a></li>
+                    <li><a class="rodape__link" href="#">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+            <form class="formulario" action="#">
+                <h2 class="formulario__titulo">Fale conosco</h2>
+                <div class="formulario__inputLabel">
+                    <label class="formulario__label" for="nome">Nome</label>
+                    <input class="formulario__input" id="nome" type="text" autocomplete="off" required>
+                </div>
+                <div class="formulario__inputLabel">
+                    <label class="formulario__label" for="mensagem"></label>
+                    <textarea class="formulario__textArea" id="mensagem" type="text" placeholder="Escreva sua mensagem" autocomplete="off" required></textarea>
+                </div>
+                <input class="botaoAzul" value="Enviar mensagem" type="submit">
+            </form>
+        </footer>
+        <p class="feitoPor__texto">Desenvolvido por Artur Coelho <br> 2022</p> 
+    </body>
