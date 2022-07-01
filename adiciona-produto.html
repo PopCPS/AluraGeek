@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/assets/css/botao.css">
         <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho-pesquisa.css">
         <link rel="stylesheet" href="/assets/css/form.css">
         <link rel="stylesheet" href="/assets/css/adiciona-produto.css">
         <link rel="stylesheet" href="/assets/css/rodape/rodape.css">
@@ -17,40 +18,46 @@
     </head>
     <body>
         <header class="cabecalho">
-            <img class="cabecalho__imagem" src="assets/img/logo.svg" alt="AluraGeek">
-            <a class="botaoBranco adm" href="#">Menu administrador</a>
+            <div class="cabecalho__logoPesquisa">
+                <img class="cabecalho__imagem" src="assets/img/logo.svg" alt="AluraGeek">
+                <div class="pesquisa">
+                    <input class="pesquisa__input" type="text" placeholder="O que deseja encontrar?">
+                    <button class="pesquisa__btn" type="submit"></button>
+                </div>
+            </div>
+            <a class="botaoBranco adm cabecalho__login" href="#">Menu administrador</a>
             <button class="cabecalho__botao"></button>
         </header>
         <section class=background__adicionaProduto>
-            <form class="formulario__adicionaProduto formulario" action="#">
-                <h2 class="formulario__titulo">Adicionar novo produto</h2>
-                <div class="formulario__inputLabel">
-                    <label for="" class="formulario__label">URL da imagem</label>
-                    <input type="text" class="formulario__input">
+            <form class="formulario__adiciona-background formulario__adicionaProduto" action="#">
+                <h2 class="formulario__titulo ">Adicionar novo produto</h2>
+                <div class="formulario__adiciona-inputLabel">
+                    <label for="" class="formulario__adiciona-label">URL da imagem</label>
+                    <input type="text" class="formulario__adiciona-input">
                 </div>
-                <div class="formulario__inputLabel">    
-                    <label for="" class="formulario__label">Categoria</label>
-                    <input type="text" class="formulario__input">
+                <div class="formulario__adiciona-inputLabel">    
+                    <label for="" class="formulario__adiciona-label">Categoria</label>
+                    <input type="text" class="formulario__adiciona-input">
                 </div>
-                <div class="formulario__inputLabel">
-                    <label for="" class="formulario__label">Nome do produto</label>
-                    <input type="text" class="formulario__input">
+                <div class="formulario__adiciona-inputLabel">
+                    <label for="" class="formulario__adiciona-label">Nome do produto</label>
+                    <input type="text" class="formulario__adiciona-input">
                 </div>
-                <div class="formulario__inputLabel">
-                    <label for="" class="formulario__label">Preço do produto</label>
-                    <input type="text" class="formulario__input">
+                <div class="formulario__adiciona-inputLabel">
+                    <label for="" class="formulario__adiciona-label">Preço do produto</label>
+                    <input type="text" class="formulario__adiciona-input">
                 </div>
-                <div class="formulario__inputLabel">
-                    <label for="" class="formulario__label">Descrição do produto</label>
-                    <textarea type="text" class="formulario__input"></textarea>
+                <div class="formulario__adiciona-inputLabel">
+                    <label for="" class="formulario__adiciona-label">Descrição do produto</label>
+                    <textarea class="formulario__textArea" type="text" class="formulario__adiciona-input"></textarea>
                 </div>
                 <input class="botaoAzul botao__adicionaProduto" type="submit" value="Adicionar produto">
             </form>
         </section>
         <footer class="rodape">
-            <img class="rodape__imagem" src="/assets/img/logo.svg" alt="AluraGeek">
             <nav>
                 <ul class="rodape__lista">
+                    <img class="rodape__imagem" src="/assets/img/logo.svg" alt="AluraGeek">
                     <li><a class="rodape__link" href="#">Quem somos</a></li>
                     <li><a class="rodape__link" href="#">Politica de privacidade</a></li>
                     <li><a class="rodape__link" href="#">Programa de fidelidade</a></li>
@@ -74,3 +81,6 @@
         </footer>
         <p class="feitoPor__texto">Desenvolvido por Artur Coelho <br> 2022</p> 
     </body>
+
+
+    

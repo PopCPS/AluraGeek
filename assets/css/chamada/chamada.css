@@ -5,7 +5,7 @@
     background-size: 100vw;
     background-color: #2D2D2D;
 
-    padding: 1rem 1rem;
+    padding: 1rem;
 
     width: calc(100vw - 2rem);
     height: 53vw;
@@ -15,4 +15,15 @@
     justify-content: flex-end;
     row-gap: .5rem;
     align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada {
+        height: 40vw;
+        width: calc(100% - 4rem);
+
+        row-gap: 1rem;
+
+        padding: 2rem;
+    }
 }

@@ -2,6 +2,7 @@
     background-color: #FFF;
     background-image: url(/assets/img/lupa.svg);
     background-repeat: no-repeat;
+    background-position: center;
 
     height: 1.5rem;
     width: 1.5rem;
@@ -9,4 +10,10 @@
     border: none;
 
     padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__botao {
+        display: none;
+    }
 }

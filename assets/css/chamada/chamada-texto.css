@@ -1,10 +1,19 @@
 .chamada__titulo {
     color: #FFF;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .chamada__subTitulo {
     color: #FFF;
     font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+    .chamada__titulo {
+        font-size: 3.25rem;
+    }
+
+    .chamada__subTitulo {
+        font-size: 1.5rem;
+    }
 }

@@ -5,3 +5,22 @@
 
     padding: 1rem;
 }
+
+.cabecalho__imagem {
+    width: 30vw;
+}
+
+.cabecalho__logoPesquisa {
+    display: flex;
+    column-gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 2rem;
+    }
+
+    .cabecalho__imagem {
+        width: 20vw;
+    }
+}

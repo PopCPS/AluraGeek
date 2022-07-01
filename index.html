@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/assets/css/botao.css">
         <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho-pesquisa.css">
         <link rel="stylesheet" href="/assets/css/chamada/chamada.css">
         <link rel="stylesheet" href="/assets/css/chamada/chamada-texto.css">
         <link rel="stylesheet" href="/assets/css/produtos.css">
@@ -20,8 +21,14 @@
     </head>
     <body>
         <header class="cabecalho">
-            <img class="cabecalho__imagem" src="assets/img/logo.svg" alt="AluraGeek">
-            <a class="botaoBranco" href="login.html">Login</a>
+            <div class="cabecalho__logoPesquisa">
+                <img class="cabecalho__imagem" src="assets/img/logo.svg" alt="AluraGeek">
+                <div class="pesquisa">
+                    <input class="pesquisa__input" type="text" placeholder="O que deseja encontrar?">
+                    <button class="pesquisa__btn" type="submit"></button>
+                </div>
+            </div>
+            <a class="botaoBranco cabecalho__login" href="login.html">Login</a>
             <button class="cabecalho__botao"></button>
         </header>
         <section class="chamada">
@@ -126,9 +133,9 @@
             </ul>
         </section>
         <footer class="rodape">
-            <img class="rodape__imagem" src="/assets/img/logo.svg" alt="AluraGeek">
             <nav>
                 <ul class="rodape__lista">
+                    <img class="rodape__imagem" src="/assets/img/logo.svg" alt="AluraGeek">
                     <li><a class="rodape__link" href="#">Quem somos</a></li>
                     <li><a class="rodape__link" href="#">Politica de privacidade</a></li>
                     <li><a class="rodape__link" href="#">Programa de fidelidade</a></li>

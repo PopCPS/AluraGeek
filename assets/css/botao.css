@@ -8,6 +8,8 @@
     background-color: #FFF;
 
     padding: .6rem 2rem;
+
+    white-space: nowrap;
 }
 
 .botaoAzul {

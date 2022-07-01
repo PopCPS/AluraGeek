@@ -25,6 +25,8 @@
     box-shadow: 5px #C8C8C8;
 
     width: 92%;
+
+    border-radius: 5px;
 }
 
 .formulario__input {
@@ -54,4 +56,11 @@
 .formulario__label {
     font-size: 14px;
     font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        width: 50vw;
+    }
+
 }

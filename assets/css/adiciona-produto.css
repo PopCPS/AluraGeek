@@ -1,7 +1,62 @@
-.background__adicionaProduto {
+.formulario__adiciona-background {
     background-color: #E5E5E5;
 }
 
-.formulario__adicionaProduto {
-    width: 91%;
+.formulario__adicionaProduto {    
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    padding: 1rem;
+}
+
+.formulario__adiciona-textArea {
+    font-size: 1rem;
+
+    height: 4rem;
+
+    resize: none;
+
+    border: none;
+
+    width: 92%;
+}
+
+.formulario__adiciona-textArea:focus, .formulario__adiciona-input:focus {
+    outline: none;
+}
+
+.formulario__adiciona-inputLabel {
+    display: flex;
+    flex-direction: column;
+    row-gap: .25rem;
+
+    background-color: #FFF;
+
+    padding: .5rem .75rem;
+
+    box-shadow: 5px #C8C8C8;
+
+    width: 82vw;
+
+    border-radius: 5px;
+}
+
+.formulario__adiciona-label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.formulario__adiciona-input {
+    border: none;
+
+    font-size: 1rem;
+
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario__adiciona-inputLabel {
+        width: 93vw;
+    }
 }

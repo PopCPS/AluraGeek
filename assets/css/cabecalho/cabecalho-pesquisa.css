@@ -1,0 +1,40 @@
+.pesquisa {
+    display: none;
+}
+
+.pesquisa__input {
+    border: none;
+
+    background-color: #E5E5E5;
+}
+
+.pesquisa__input:focus {
+    outline: none;
+}
+
+.pesquisa__btn {
+    border: none;
+
+    background-color: #E5E5E5;
+    background-image: url(/assets/img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 1.5rem;
+    width: 1.5rem;
+
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .pesquisa {
+        background-color: #E5E5E5;
+
+        display: flex;
+        align-items: center;
+    
+        padding: .75rem 1rem;
+    
+        border-radius: 5vw;
+    }
+}
