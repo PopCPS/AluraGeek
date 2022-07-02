@@ -19,11 +19,24 @@
 
 @media screen and (min-width: 768px) {
     .chamada {
-        height: 40vw;
+        height: 35vw;
         width: calc(100% - 4rem);
 
         row-gap: 1rem;
 
         padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+        height: 28vw;
+
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+        width: calc(100% - 20vw);
+
+        background-position: 260px;
     }
 }

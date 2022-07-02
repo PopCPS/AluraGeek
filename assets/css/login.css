@@ -1,5 +1,5 @@
 .login {
-    padding: 4.75rem 4.375rem;
+    padding: 4.75rem 2.5rem;
     
     display: flex;
     flex-direction: column;
@@ -13,12 +13,28 @@
     text-align: center;
 }
 
-.login__label {
-    display: none;
+.login__inputLabel {
+    height: 2.5rem;
+
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: .25rem;
+
+    background-color: #FFF;
+
+    padding: .5rem .75rem;
+
+    box-shadow: 5px #C8C8C8;
+
+    width: 92%;
+
+    border-radius: 5px;
 }
 
-.botao__login {
-    padding: .75rem 2.125rem;
+.login__label {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,5 +42,20 @@
         justify-content: center;
 
         padding: 4rem 15.375rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .login {
+        padding: 6rem 30vw;
+
+        row-gap: 1.5rem;
+
+        align-items: normal;
+    }
+
+    .login__inputLabel {
+        height: 4rem;
+        width: calc(100% - 1.5rem);
     }
 }

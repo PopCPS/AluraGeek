@@ -6,6 +6,10 @@
     row-gap: .5rem;
 }
 
+.produto:nth-child(5), .produto:nth-child(6) {
+    display: none;
+}
+
 .produto__imagem {
     width: calc(50vw - 24px);
 }
@@ -20,6 +24,10 @@
     font-weight: 700;
 }
 
+.produto__link::after {
+    content: " \1F86A";
+}
+
 @media screen and (min-width: 768px) {
     .produto__link {
         font-size: 1rem;
@@ -31,7 +39,15 @@
 
     .produto {
         width: 24.25%;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .produto:nth-child(5), .produto:nth-child(6) {
+        display: flex;
     }
 
-    
+    .produto {
+        width: 15.8%;
+    }
 }

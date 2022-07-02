@@ -36,3 +36,20 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.botao__login {
+    padding: .75rem 2.125rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .botao__login {
+        height: 3.75rem;
+
+        font-size: 1.25rem;
+    }
+
+    .botaoAzul {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

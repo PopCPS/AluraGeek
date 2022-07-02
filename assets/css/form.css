@@ -62,5 +62,10 @@
     .formulario {
         width: 50vw;
     }
+}
 
+@media screen and (min-width: 1024px) {
+    .formulario {
+        width: 30vw;
+    }
 }

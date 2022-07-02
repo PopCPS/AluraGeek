@@ -7,7 +7,7 @@
 }
 
 .cabecalho__imagem {
-    width: 30vw;
+    width: 31.25vw;
 }
 
 .cabecalho__logoPesquisa {
@@ -21,6 +21,17 @@
     }
 
     .cabecalho__imagem {
-        width: 20vw;
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__imagem {
+        width: 12.22vw;
+    }
+
+    .cabecalho {
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }

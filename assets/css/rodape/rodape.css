@@ -10,7 +10,11 @@
 }
 
 .rodape__imagem {
-    width: 50vw;
+    display: none;
+}
+
+.rodape__imagem__lista, .rodape__imagem {
+    width: 176px;
 }
 
 
@@ -25,15 +29,31 @@
 }
 
 @media screen and (min-width: 768px) {
-    .rodape__imagem {
-        width: 20vw;
-    }
-
     .rodape {
         flex-direction: row;
         
         padding: 2rem;
 
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 4rem 10vw;
+
+        column-gap: 2rem;
+    }
+    
+    .rodape__imagem__lista {
+        display: none;
+    }
+
+    .rodape__imagem {
+        display: unset;
+
+        align-self: flex-start;
+
+        margin-top: 40px;
     }
 }

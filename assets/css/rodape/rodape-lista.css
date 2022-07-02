@@ -14,5 +14,7 @@
 @media screen and (min-width: 768px) {
     .rodape__lista {
         align-items: flex-start;
+
+        row-gap: 1.5rem;
     }
 }
