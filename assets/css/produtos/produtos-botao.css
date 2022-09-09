@@ -9,10 +9,18 @@
     width: 20px;
 
     border: none;
+    border-radius: 3px;
 
-    background-color: transparent;
+    background-color: white;
+    opacity: 0.5;
     background-repeat: no-repeat;
     background-position: center;
+
+    
+}
+
+.produto__delete:hover, .produto__edit:hover{
+    cursor: pointer;
 }
 
 .produto__edit{

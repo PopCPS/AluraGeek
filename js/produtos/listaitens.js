@@ -13,8 +13,8 @@ const criaNovoItem = (url, nome, preco) => {
     const conteudo = `
         <img class="produto__imagem" src="${url}" alt="${nome}">
         <div class="produto__editDelete">
-            <button class="produto__edit"></button>
-            <button class="produto__delete"></button>
+            <button class="produto__edit" data-id="edit"></button>
+            <button class="produto__delete" data-id="delete"></button>
         </div>
         <p>${nome}</p>
         <p class="produto__preco">${preco}</p>

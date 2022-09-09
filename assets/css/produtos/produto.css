@@ -6,6 +6,8 @@
     row-gap: .5rem;
     justify-content: flex-end;
 
+    cursor: pointer;
+
     position: relative;
 }
 
