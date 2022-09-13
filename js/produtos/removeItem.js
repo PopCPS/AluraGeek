@@ -11,14 +11,14 @@ const removeItem = (id) => {
 
 const lista = document.querySelector('[data-id="todosProdutos"]')
 
-lista.addEventListener('click', (evento) => {
+lista.addEventListener('click', async (evento) => {
     let botaoDeleta = evento.target.className === 'produto__delete'
     if(botaoDeleta) {
         try {
             const item = evento.target.closest('.produto')
             let id = item.dataset.id
-
-            console.log(id)
+            await removeItem(id)
+            item.remove()
         }
         catch(erro) {
             console.log(erro)
